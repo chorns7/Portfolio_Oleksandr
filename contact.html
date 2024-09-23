@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contattami - Oleksandr Chorney</title>
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="asset/contact.css">
+    <link rel="icon" href="asset/favicon.ico">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">oleksandr chorney</a>
+        <input class="menu-btn" id="menu-btn" type="checkbox">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="mission.html">mission</a></li>
+            <li><a href="history.html">history</a></li>
+            <li><a href="shop.html">shop</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </header>
+    
+    <main class="background">
+        <div class="container">
+            <div class="screen">
+                <div class="corpo">
+                    <div class="corpicini left">
+                        <h1 class="app-title">Teniamoci in contatto</h1>
+                        <div class="app-contact">Telefono: 345 055 1764</div>
+                        <div class="app-contact">Email: sacha.chorney@yahoo.it</div>
+                    </div>
+                    <div class="corpicini">
+                        <form id="contact-form" class="app-form">
+                            <div class="app-form-group">
+                                <input class="app-form-control" type="text" name="name" placeholder="NOME" required>
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" type="email" name="email" placeholder="EMAIL" required>
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" type="text" name="subject" placeholder="OGGETTO" required>
+                            </div>
+                            <div class="app-form-group message">
+                                <textarea class="app-form-control" name="message" placeholder="MESSAGGIO" required></textarea>
+                            </div>
+                            <div class="app-form-group buttons">
+                                <button type="button" class="app-form-button">ANNULLA</button>
+                                <button type="submit" class="app-form-button">INVIA</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
